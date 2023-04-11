@@ -11,6 +11,6 @@ def solution(x_success: int,
     x = x_success/x_cnt
     y = y_success/y_cnt
     flag = False
-    if x/y > 1.04:
+    if x/y > 1.2:
         flag = True
     return flag # Ваш ответ, True или False
